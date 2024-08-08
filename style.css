@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Arvo", serif;
+}
+
+body {
+    background-color:#dfa49b;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:700px;
+}
+
+.container{
+    background-color:bisque;
+    width:500px;
+    height:600px;
+    border-radius:10%;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.caixa-de-pesquisa{
+    width:100%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top:40px;
+}
+
+#cidade {
+    background-color:bisque;
+    border-width:0 0 5px 0;
+    border-color:#dfa49b;
+    width:60%;
+    height:90%;
+    font-size:20px;
+    
+}
+
+#botao-lupa {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:#dfa49b;
+    border:none;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor:pointer;
+}
+
+#botao-lupa:hover{
+    width:60px;
+    height:60px;
+}
+
+.imagens{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+#imagem-clima{
+    width:60%;
+    height:60%;
+}
+
+.textos p{
+    margin-left:30px;
+    margin-top:30px;
+    font-size:20px;
+}
+
+/* ::placeholder{background-color: crimson;
+color:black} */
+
+@media (min-width:320px) and (max-width:500px){
+
+.container{
+    width:90%;
+    height:500px;
+}
+}
